@@ -10,10 +10,10 @@ services:
     props:
       region: "cn-hangzhou"
       service:
-        name: "ohyee-test-nodejs-runtime"
+        name: "ohyee-test-nodejs-runtime2"
         description: 'hello world by serverless devs'
       function:
-        name: "ohyee-test-nodejs-runtime"
+        name: "ohyee-test-nodejs-runtime2"
         description: 'hello world by serverless devs'
         runtime: nodejs14
         codeUri: ./build
